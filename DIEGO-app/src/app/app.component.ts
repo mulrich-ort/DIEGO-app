@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({

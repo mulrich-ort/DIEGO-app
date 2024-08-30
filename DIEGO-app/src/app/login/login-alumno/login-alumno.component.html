@@ -1,4 +1,17 @@
 <p>login-alumno works!</p>
 <p>Acá el alumno ingresa el ID de la partida (se la da el docente), el nombre para su empresa y el listado de integrantes.</p>
 <p>De acá vamos a la pantalla Principal de Alumno</p>
-<button routerLink="inicio">Comenzar</button>
+<div>
+<mat-form-field style="height: 50px;">
+    <mat-label style="height: 100px;">ID_Partida</mat-label>
+    <input matInput>
+</mat-form-field></div>
+<div><mat-form-field style="height: 50px;">
+    <mat-label style="height: 100px;">Nombre Empresa</mat-label>
+    <input matInput>
+</mat-form-field></div>
+<div><mat-form-field style="height: 50px;">
+    <mat-label style="height: 100px;">Nombres Integrantes</mat-label>
+    <input matInput>
+  </mat-form-field></div>
+<button routerLink = "/pantalla-principal">Comenzar</button>
